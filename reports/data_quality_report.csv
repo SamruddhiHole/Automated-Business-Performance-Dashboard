@@ -1,0 +1,11 @@
+Check_Name,Status,Value,Details
+Required Columns,PASSED,9.0,All required columns present
+Row Count,PASSED,4.0,4 records available
+Positive Quantities,PASSED,0.0,All quantities are strictly positive (> 0)
+Positive Unit Prices,PASSED,0.0,All unit prices are strictly positive (> 0)
+No Cancelled Invoices,PASSED,0.0,Zero cancelled invoices present in sales
+Valid Dates,PASSED,0.0,Date span: 2021-01-15 10:30:00 to 2021-05-20 17:30:00
+Revenue Accuracy,PASSED,131.0,All revenue values exact. Total: £131.00
+No Missing Descriptions,PASSED,1.0,Zero nulls (1 filled with 'Unknown Product')
+Missing Customer IDs (Retained),INFO,1.0,1 records (25.0%) have unassigned CustomerID; retained per business rules
+Zero Exact Duplicates,PASSED,0.0,No duplicate rows detected

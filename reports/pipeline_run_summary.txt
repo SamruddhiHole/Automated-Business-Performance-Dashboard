@@ -1,0 +1,45 @@
+======================================================================
+AUTOMATED BUSINESS PERFORMANCE DASHBOARD - PIPELINE EXECUTION SUMMARY
+======================================================================
+Execution Timestamp : 2026-11-22 22:18:11
+Duration            : 0.13 seconds
+Input File          : synthetic_sales.csv
+File Path           : C:\Users\samru\AppData\Local\Temp\pytest-of-samru\pytest-12\test_end_to_end_pipeline_execu0\synthetic_sales.csv
+File SHA-256        : 45f9874bf4ef0c19972369911fdfef10fbe179a569cb594568f21c76cd7496e2
+Status              : SUCCESS
+
+RAW DATA METRICS:
+-----------------
+Total Raw Rows Ingested     : 9
+Duplicate Rows Removed      : 1
+Non-Sales Records Excluded  : 3
+Valid Sales Records Saved   : 4
+Missing Customer IDs        : 1 (Retained in sales)
+
+EXECUTIVE BUSINESS KPIS:
+------------------------
+Total Revenue               : £131.00
+Total Orders                : 4
+Identified Customers        : 3
+Unique Products             : 4
+Average Order Value         : £32.75
+Total Quantity Sold         : 17
+
+DATABASE VERIFICATION:
+----------------------
+Database File               : C:\Users\samru\AppData\Local\Temp\pytest-of-samru\pytest-12\test_end_to_end_pipeline_execu0\test_pipe_isolated.db
+Table Updated               : sales
+Records in Database         : 4
+
+GENERATED OUTPUTS:
+------------------
+1. Cleaned Sales CSV        : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\data\processed\cleaned_sales.csv
+2. Non-Sales CSV            : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\data\processed\non_sales_transactions.csv
+3. Data Quality Report      : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\reports\data_quality_report.csv
+4. Business Summary         : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\reports\business_summary.csv
+5. Monthly Sales Summary    : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\reports\monthly_sales_summary.csv
+6. Country Sales Summary    : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\reports\country_sales_summary.csv
+7. Product Sales Summary    : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\reports\product_sales_summary.csv
+8. Customer Sales Summary   : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\reports\customer_sales_summary.csv
+9. Execution Log            : C:\Users\samru\OneDrive\文档\Automated_Business_Dashboard\logs\pipeline.log
+======================================================================

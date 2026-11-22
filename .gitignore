@@ -1,26 +1,53 @@
-﻿# Python
+﻿# Python bytecode & cache
 __pycache__/
 *.py[cod]
 *.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
 .venv/
 venv/
 env/
+ENV/
 
-# Databases
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Databases & SQLite files (Prevent committing 95MB+ databases)
 *.db
 *.sqlite
 *.sqlite3
 database/*.db
 
-# Archives and raw data files
+# Large raw datasets & archives (Prevent committing 20MB+ raw files)
 *.zip
 *.tar.gz
 *.xlsx
+*.xls
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.zip
+data/online+retail/*.xlsx
+data/online+retail/*.zip
 
-# Large processed data files
+# Large processed sales dataset (50MB+)
 data/processed/cleaned_sales.csv
 
-# Environment & IDE
-.env
-.vscode/
-.idea/
+# Logs
+logs/*.log
+*.log
+
+# Keep gitkeep placeholders
+!logs/.gitkeep
+!reports/.gitkeep
+!database/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!powerbi/.gitkeep
+!screenshots/.gitkeep

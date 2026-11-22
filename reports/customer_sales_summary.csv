@@ -1,0 +1,4 @@
+CustomerID,Country,Total_Orders,Total_Quantity,Total_Spend,Avg_Order_Spend
+67890,France,1,4,60.0,60.0
+12345,United Kingdom,1,10,25.0,25.0
+33333,United Kingdom,1,2,16.0,16.0
