@@ -192,6 +192,7 @@ python python/automated_pipeline.py --all
 The included report (`powerbi/Automated_Business_Dashboard.pbix`) provides four pages of interactive analysis:
 
 ### 1. Business Overview Page
+![Business Overview Dashboard](screenshots/Screenshot%202026-11-22%20205831.png)
 - **KPI Cards**: Total Revenue (£10.64M), Average Order Value (£533.17), Total Orders (19.96K), Total Customers (4.34K).
 - **Monthly Revenue Trend**: Monthly revenue trajectory across 2010–2011.
 - **Top 10 Countries**: Market revenue distribution.
@@ -200,15 +201,18 @@ The included report (`powerbi/Automated_Business_Dashboard.pbix`) provides four 
 - **Filters**: Slicers for `Year`, `YearMonth`, and `Country`.
 
 ### 2. Sales Analysis Page
+![Sales Analysis Dashboard](screenshots/Screenshot%202026-11-22%20205843.png)
 - **Transaction Dynamics**: Monthly order volumes, daily revenue curves, and day-of-week sales.
 - **Unit Performance**: Monthly quantities sold and comparative sales table.
 
 ### 3. Customer Analysis Page
+![Customer Analysis Dashboard](screenshots/Screenshot%202026-11-22%20205857.png)
 - **Customer Segmentation**: Revenue breakdown by customer purchasing tiers.
 - **Order Frequency**: Distribution of one-time vs occasional vs VIP buyers.
 - **Average Spend per Customer**: Customer lifetime value metrics.
 
 ### 4. Product Analysis Page
+![Product Analysis Dashboard](screenshots/Screenshot%202026-11-22%20205908.png)
 - **Merchandise Focus**: Rankings excluding non-merchandise fees and postage.
 - **Volume vs Value**: Top products by revenue vs top products by units sold.
 - **Price Sensitivity**: Average unit prices and revenue trends.
