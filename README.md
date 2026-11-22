@@ -1,4 +1,3 @@
-# Automated-Business-Performance-Dashboard
 # Automated Business Performance Dashboard
 
 ## Project Overview
