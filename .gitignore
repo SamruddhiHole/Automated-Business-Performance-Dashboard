@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+env/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# Archives and raw data files
+*.zip
+*.tar.gz
+*.xlsx
+
+# Large processed data files
+data/processed/cleaned_sales.csv
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
